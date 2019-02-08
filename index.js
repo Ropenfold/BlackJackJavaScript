@@ -44,11 +44,8 @@ function startGame() {
 }
 
 function startDeal() {
-  //for (var i = 0; i < 2; i++) {
   let card = dealCard();
-
   return card;
-  //}
 }
 
 function dealCard() {
@@ -68,4 +65,10 @@ function addPlayerCard(number) {
 
 function addDealerCard(number) {
   dealersCards.push(number);
+}
+
+function totalPlayerCardValue() {
+  let total;
+
+  return total;
 }
